@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Мой сайт резюме">
+        <meta name="keywords" content="resume, programming, developer, dev, frontend">
+        <img id="image" src="фото-меня.jpg">
+        <link rel="stylesheet" href="index.css">    
+        <title>Резюме Максима Котельникова</title>
+    </head>
+    <body>  
+        <div class="container">
+            <h1>Максим Котельников</h1>
+            <div id="describe"><p>Пока что я изучаю <strong>HTML & CSS, JS</strong>. Сейчас я закончил <strong>8 класс</strong>, мне <strong>15 лет</strong>.</p>
+        </div>
+        
+        <hr class="horizontal" size="3" noshade="">
+
+            <div class="card" id="card-resume-block1"><h2>Остальные увлечения:</h2>
+                <p>Люблю гулять, играть в волейбол, кататься на самокате.</p>
+            </div>
+
+        <hr class="horizontal"  size="3" noshade="">
+        <div class="card" id="card-resume-block2"><h2>Я в социальных сетях:</h2>
+            <a class="lnk"  href="https://t.me/kagura_44" target="_blank">Telegram </a>
+            <a class="lnk"  id="lnk1" href="https://vk.com/maksim13377" target="_blank">ВКонтакте</a>
+        </div>
+
+        <hr class="horizontal" size="3" noshade="">
+
+         <div class="card" id="card-resume-block3"><h2>Мои хобби:</h2>
+
+            <ol>
+                <li>Программирование</li>
+                <li>Волейбол</li>
+            </ol>   
+         </div>
+
+        <hr class="horizontal" size="3" noshade="">
+        <div class="card4" id="card-resume-block4"><h2>Опыт</h2>
+        <table class="table" id="table">
+            <thead>
+            <tr>
+                <th>Название</th>
+                <th>Деятельность</th>
+                <th>Время обучения</th>
+            </tr>
+            </thead>
+            <tr>
+                <td>Курс по Python на YouTube</td>
+                <td>Основы Python</td>
+                <td>1 месяц</td>
+            </tr>
+            <tr>
+                <td>Курс от Фоксфорд</td>
+                <td>Основы Python</td>
+                <td>1 неделя</td>
+            </tr>
+            <tr>
+                <td>Курс от Фоксфорд 2</td>
+                <td>Игры на Python</td>
+                <td>1 месяц</td>
+            </tr>
+            <tr>
+                <td>Своя практика на Python</td>
+                <td>Написание Telegram бота, мини онлайн-чата, и прочих программок с интерфейсом</td>
+                <td>3 месяца</td>
+            </tr>
+            <tr>
+                <td>Курс по frontend от Result School</td>
+                <td>HTML & CSS & JS</td>
+                <td>4 недели [прохожу на данный момент]</td>
+            </tr>
+        </table>
+        </div>
+        
+        <hr class="horizontal" size="3" noshade="">
+        <div class="card5" id="card-resume-block5"><h2>Связаться со мной</h2>
+            <form class="form">
+            <div class="form_obj">
+                <label for="text" placeholder>Имя</label>
+                <input type="text" id="text" placeholder="Введите имя...">
+            </div>
+
+
+            <div class="form_obj">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Введите email...">
+            </div>
+ 
+
+            <div class="form_obj">
+                <label for="message">Сообщение</label>
+                <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+
+
+            <div>
+                <button type="submit" class="btn">Отправить</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

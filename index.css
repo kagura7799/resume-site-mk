@@ -1,0 +1,247 @@
+body {
+    background-color: rgba(204, 192, 192, 0.799);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+
+.container {
+    margin: auto;
+    max-width: 650px;
+}
+
+@media (max-width: 630px) {
+
+    body {
+        margin-right: 1px;
+    }
+
+    
+
+    #card-resume-block1 h2 {
+        padding-right: 360px;
+    }
+
+    #card-resume-block2 h2 {
+        padding-right: 100px;
+        padding-left: 0;
+    }
+
+
+    #card-resume-block3  {
+        padding-left: 10px;
+    }
+  
+
+
+    
+} 
+
+
+
+#image {
+   border-radius: 13px;
+   width: 220px;
+   box-shadow: 6px 5px 20px black;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+h1 {
+    color: black;
+    font-size: 28px;
+    margin-left: 9.5rem;
+    margin-bottom: 0.1%;
+}
+
+
+
+#describe {
+    color: black;
+    font-size: 15px;
+    border-radius: 11px;
+    padding-left: 8px;
+    padding: 15px;
+    margin-left: 25px;
+}
+
+.card { 
+    margin: auto;
+    padding: 15px 20px;
+    padding-right: 10px;
+}
+
+#card-resume-block1 {
+    background-color: rgba(117, 248, 117, 0.705);
+    border-radius: 11px;
+    font-size: 13px;
+    box-shadow: 4px 5px 15px rgba(90, 211, 54, 0.694);
+}
+
+#card-resume-block1 h2 {
+}
+
+#card-resume-block1 p {
+    font-size: 14px;
+}
+
+#card-resume-block2 {
+    background-color: rgba(129, 197, 239, 0.719);
+    border-radius: 11px;
+    box-shadow: 4px 5px 20px rgba(65, 164, 203, 0.772);
+    padding-bottom: 35px;
+}
+
+#card-resume-block2 h2 {
+    font-size: 18.5px;
+    padding-bottom: 10px;
+}
+
+
+#card-resume-block3 {
+    background-color: rgba(242, 172, 183, 0.779);
+    border-radius: 11px;
+    box-shadow: 4px 5px 20px rgba(208, 103, 103, 0.772);
+}
+
+#card-resume-block3 h2 {
+        width: 200px;
+        padding-right: 100px;
+        font-size: 20px;
+
+    }
+
+
+#card-resume-block3 ol {
+    font-size: 15px;
+}
+
+#card-resume-block4 {
+    background-color: rgba(248, 248, 190, 0.589);
+    border-radius: 11px;
+    box-shadow: 4px 5px 20px rgba(194, 194, 115, 0.589);
+}
+
+#card-resume-block4 h2 {
+    font-size: 18px;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+#card-resume-block4 table {
+    font-size: 13px;
+    margin-left: 30px;
+    padding-bottom: 35px;
+}
+
+#card-resume-block4 th {
+    border-bottom: 2px solid black;
+}
+
+#card-resume-block4 td {
+    border-bottom: 2px solid black;
+}
+
+.table td:hover {
+    background-color: rgba(250, 248, 190, 0.772);
+}
+
+.table {
+    width: 50%;
+    border: 2px solid black
+}
+
+#card-resume-block5 {
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 11px;
+    padding-left: 6px;
+    padding: 15px;
+    font-size: 12px;
+    box-shadow: 4px 5px 20px rgba(7, 8, 14, 0.596);
+}
+
+#card-resume-block5 h2 {
+}
+
+.horizontal {
+    background-color: rgba(69, 61, 61, 0.772);
+}
+
+.btn {
+    background-color: #111;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    padding: 10px 55px;
+}
+
+.btn:hover {
+    background-color: #111111a2;
+}
+
+a:hover {
+    color: rgba(99, 144, 235, 0.831);
+    font-size: 17px;
+}  
+
+.lnk {
+    background-color: #111111a2;
+    border-radius: 8px;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 0.5px;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+label {
+    font-size: 15px;
+}
+
+input, textarea {
+    border-radius: 5px;
+}
+
+textarea {
+    border: 2px solid black
+}
+
+.form_obj label {
+    display: block;
+}
+
+.form_obj input {
+    background-color: rgba(242, 239, 239, 0);
+    width: 100%;
+    outline: none;
+    border-style: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    padding: 5px 0;
+    padding-left: 5px;
+}
+
+.form_obj textarea {
+    font-size: 15px;
+    outline: none;
+    border-style: none;
+    margin-top: 5px;
+    width: 20rem;
+    height: 20px;
+    background-color: rgba(242, 239, 239, 0);
+    border-bottom: 1px solid grey;
+}
+
+input::placeholder {
+    padding-left: 8px;
+}
+
+.form_obj input:hover {
+    background-color: rgba(205, 196, 196, 0.162);
+}
+
+.form_obj textarea:hover {
+    background-color: rgba(205, 196, 196, 0.162);
+}
